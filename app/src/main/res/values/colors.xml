@@ -7,4 +7,29 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    <!--Base colors-->
+    <color name="black_light">#424242</color>
+    <color name="black_dark_shade">#292929</color>
+    <color name="yellow">#FFC700</color>
+    <color name="dark_red">#7f1a18</color>
+    <color name="darkGray">#888888</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="colorTextPrimary">@color/white</color>
+    <color name="colorTextSecondary">@color/dark_red</color>
+    <color name="colorPrimary">@color/black</color>
+    <color name="colorSecondary">@color/yellow</color>
+
+    <color name="dividerLineColor">#1fffffff</color>
+    <color name="red">#ec2637</color>
+    <color name="bottom_sheet_background">@color/black_dark_shade</color>
+    <color name="shimmerColor">#C2C2C2</color>
+
+    <color name="window_background">#282828</color>
+    <color name="status_bar_scrim_translucent_dark">#8F222222</color>
+    <color name="status_bar_scrim_light">#E0E0E0</color>
+
+    <color name="translucentBackground">#ED000000</color>
 </resources>

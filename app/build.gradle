@@ -99,7 +99,7 @@ dependencies {
 
 
     // Spark Button
-    implementation 'com.github.varunest:sparkbutton:1.0.6'
+    implementation 'com.github.varunest:sparkbutton:1.0.5'
 
     //Moshi
     def moshiVersion = "1.13.0"
@@ -110,4 +110,8 @@ dependencies {
 
     //swipe refresh layout
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+
+    //DataStore
+    implementation "androidx.datastore:datastore-preferences:1.0.0"
+    implementation "androidx.datastore:datastore-preferences-core:1.0.0"
 }
