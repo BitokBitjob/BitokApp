@@ -8,6 +8,7 @@ import javax.inject.Singleton
 
 @Singleton
 class EventService @Inject constructor(retrofit: Retrofit) : EventsApi {
+
     private val eventsApi by lazy { retrofit.create(EventsApi::class.java) }
 
     override fun getAllEvents(token: String): Response<List<Event>> {

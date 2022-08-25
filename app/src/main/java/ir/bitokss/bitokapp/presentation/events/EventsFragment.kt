@@ -1,21 +1,24 @@
-package ir.bitokss.bitokapp.presentation.login
+package ir.bitokss.bitokapp.presentation.events
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import ir.bitokss.bitokapp.databinding.FragmentLoginBinding
+import dagger.hilt.android.AndroidEntryPoint
+import ir.bitokss.bitokapp.databinding.FragmentEventsBinding
 
-class LoginFragment : Fragment() {
+@AndroidEntryPoint
+class EventsFragment : Fragment() {
 
-    private lateinit var binding: FragmentLoginBinding
+    private lateinit var binding: FragmentEventsBinding
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentLoginBinding.inflate(layoutInflater)
+        binding = FragmentEventsBinding.inflate(layoutInflater)
         return binding.root
     }
 

@@ -1,4 +1,4 @@
-package ir.bitokss.bitokapp.domain.repository
+package ir.bitokss.bitokapp.data.repository
 
 import ir.bitokss.bitokapp.common.utils.CustomResponse
 import ir.bitokss.bitokapp.data.remote.dto.Event

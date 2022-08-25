@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="ir.bitokss.bitokapp.presentation.login.LoginFragment"
+        android:name="ir.bitokss.bitokapp.presentation.events.EventsFragment"
         android:label="LoginFragment"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_events" />
 </navigation>
